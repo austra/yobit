@@ -4,7 +4,7 @@ I currently do not have a yobit.net account or api key (registration is currentl
 
 [![Gem Version](https://badge.fury.io/rb/yobit.png)](https://badge.fury.io/rb/yobit.png)
 
-This gem provides a wrapper for the yobit.net api: [Link](https://yobit.net/en/api)
+This gem provides a wrapper for the yobit.net api: [yobit.net](https://yobit.net/en/api)
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -36,7 +36,7 @@ Yobit.ticker
 Yobit.get_info
 ```
 
-Full list of supported methods, see [Link](https://yobit.net/en/api) for usage.
+Full list of supported methods, see [yobit](https://yobit.net/en/api) for usage.
 
 ```
 info
