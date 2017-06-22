@@ -26,6 +26,7 @@ Setup your api key:
 ```
 Yobit.setup do | config |
     config.key = 'my api key'
+    config.secret = 'my api secret'
 end
 ```
 

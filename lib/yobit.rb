@@ -11,7 +11,8 @@ module Yobit
     attr_accessor :key
 
     def initialize
-      @key = ''
+      @key    = ''
+      @secret = ''
     end
   end
 
@@ -111,7 +112,7 @@ module Yobit
   
   def self.create_sign(data)
     encoded_data = Addressable::URI.form_encode(data)
-    OpenSSL::HMAC.hexdigest('sha512', config.key, encoded_data)
+    OpenSSL::HMAC.hexdigest('sha512', config.secret, encoded_data)
   end
 
 end
