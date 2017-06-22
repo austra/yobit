@@ -8,7 +8,7 @@ module Yobit
   TRADE_API_URL  = 'https://yobit.net/tapi/'.freeze
   
   class ApiConfig
-    attr_accessor :key
+    attr_accessor :key, :secret
 
     def initialize
       @key    = ''
